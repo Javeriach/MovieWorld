@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import WatedMoviesSummary from './WatedMoviesSummary';
 import SelectedMovieDisplay from './SelectedMovieDisplay';
 import LoadingStatement from '../moviesListContainer/LoadingStatement';
-import ErrorMessage from '../moviesListContainer/errorMessage';
+import ErrorMessage from '../moviesListContainer/ErrorMessage';
 import WatchSumrySinEle from '../ResuseAble/WatchedSumrySinEle';
 import { useLocalStorageState } from '../useLocalStorageState';
 import { toast } from 'react-toastify';
