@@ -15,7 +15,7 @@ export function useMovies(movieTitle) {
         setError('');
 
         let res = await fetch(
-          `http://www.omdbapi.com/?apikey=${key}&s=${movieTitle}`,
+          `https://www.omdbapi.com/?apikey=${key}&s=${movieTitle}`,
           { signal: AbortController.signal }
         );
 
