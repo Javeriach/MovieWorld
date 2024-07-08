@@ -41,7 +41,7 @@ function WatchedMovies({ selectToDisplayID, setSelectedToDisplayID }) {
           msg: '',
         });
         let res = await fetch(
-          `http://www.omdbapi.com/?apikey=${key}&i=${selectToDisplayID}`
+          `https://www.omdbapi.com/?apikey=${key}&i=${selectToDisplayID}`
         );
         if (!res.ok) {
           throw new Error('Data Fetching Failed');
