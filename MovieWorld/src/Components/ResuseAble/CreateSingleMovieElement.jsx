@@ -15,9 +15,9 @@ function CreateSingleMovieElement({
   };
 
   return (
-    <div>
-      {
-        <div onClick={selectedMovieDisplay}>
+    <div onClick={selectedMovieDisplay}>
+      
+        
           {Poster !== 'N/A' && Title !== '' && Year !== '' ? (
             <div
               className={` d-flex  align-items-center justify-content-evenly list-group-item item movieListElement`}
@@ -50,8 +50,8 @@ function CreateSingleMovieElement({
           ) : (
             ''
           )}
-        </div>
-      }
+     
+      
     </div>
   );
 }
