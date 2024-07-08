@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CreateSingleMovieElement from '../ResuseAble/CreateSingleMovieElement';
 import LoadingStatement from './LoadingStatement';
-import ErrorMessage from './errorMessage';
+import ErrorMessage from './ErrorMessage';
 
 function AllMoviesListContainer({
   tempMovieData,
